@@ -1,0 +1,21 @@
+1: git add (gitにファイルを追加)
+git add *.py *.R
+git add -u
+2: git status (現在の状態確認)
+3: git commit -m “なにかコメント” (addしたファイルの変更確定)
+4: git push origin master (commitをアップロード)
+5: git pull (リモートの変更を手元に反映)
+6: git checkout (ブランチ切替、ファイル変更取消)
+git checkout ファイル名
+git checkout ブランチ名orハッシュ値
+git checkout --ours ファイル名
+7: git reset --hard (変更全取消)
+
+
+
+〇 ローカルで作業した内容をリモートにpushしたい時
+git add -u or {特定のファイル} or .
+git commit -m "作業内容"
+git push origin feature/xxx
+
+照すテステス
