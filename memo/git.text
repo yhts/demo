@@ -17,3 +17,5 @@ git checkout --ours ファイル名
 git add -u or {特定のファイル} or .
 git commit -m "作業内容"
 git push origin feature/xxx
+
+照すテステス
